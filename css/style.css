@@ -281,6 +281,7 @@ a {
 /* Стилизация HERO */
 
 .hero {
+  background-size: cover;
   background-image: url("https://test-imperia-sochi.ru/images/Tulpanovka/FON.webp");
   background-repeat: no-repeat;
   background-attachment: fixed;
