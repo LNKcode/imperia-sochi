@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <title>Тюльпановка</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container container">
+      <nav class="navigation">
+        <a class="navigation__logo" href="/">
+          <img src="./img/tulp-logo.webp" alt="логотип Тюльпановка." width="40" height="46">
+        </a>
+        <button class="header__burger">
+          <svg viewBox="0 0 24 24" width="18" height="22" fill="#ffffff">
+            <path class="st0" d="M23,6H1C0.4,6,0,5.6,0,5V3c0-0.5,0.4-1,1-1h22c0.5,0,1,0.5,1,1v2C24,5.6,23.5,6,23,6z">
+            </path>
+            <path class="st0"
+              d="M16,14H1c-0.6,0-1-0.4-1-1v-2c0-0.6,0.4-1,1-1h15c0.5,0,1,0.4,1,1v2C17,13.6,16.5,14,16,14z"></path>
+            <path class="st0"
+              d="M19.9,22H1c-0.6,0-1-0.5-1-1v-2c0-0.5,0.4-1,1-1h18.9c0.5,0,1,0.5,1,1v2C20.9,21.5,20.5,22,19.9,22z">
+            </path>
+          </svg>
+          Меню
+        </button>
+      </nav>
+      <div class="header__wrapper">
+        <div class="header__contacts">
+          <a href="tel:+78622956469" class="header__phone">8 862 295-64-69</a>
+          <span class="header__sup-phone">
+            сейчас работаем
+          </span>
+        </div>
+        <button class="header__btn btn-green" type="button">
+          Обратный звонок
+        </button>
+      </div>
+    </div>
+  </header>
+  <div class="menu">
+    <div class="menu__wrapper">
+      <a class="menu__logo" href="/">
+        <img src="./img/tulp-logo.webp" alt="логотип Тюльпановка." width="60" height="60">
+      </a>
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a class="menu__link" href="/about">
+            О комплексе
+          </a>
+        </li>
+        <li class="menu__item">
+          <a href="/gallery" class="menu__link">
+            галерея
+          </a>
+        </li>
+        <li class="menu__item">
+          <a href="/prices" class="menu__link">
+            цены
+          </a>
+        </li>
+        <li class="menu__item">
+          <a href="/mortgage-installment-plan" class="menu__link">
+            ипотека и рассрочка
+          </a>
+        </li>
+        <li class="menu__item">
+          <a href="/contacts" class="menu__link">
+            контакты
+          </a>
+        </li>
+      </ul>
+      <button class="menu__btn btn-green btn-green--big" type="button">
+        Обратный звонок
+      </button>
+      <div class="menu__contacts">
+        <a href="tel:+78622956469" class="menu__phone">8 862 295-64-69</a>
+      </div>
+    </div>
+    <button class="menu__close" type="button">
+      <svg width="40" height="40" fill="#ffffff" viewBox="0 0 64 64">
+        <path class="svg-close" d="M28.9,31.8L0.6,60.1c-0.8,0.8-0.8,2.1,0,2.8C1,63.4,1.5,63.6,2,63.6c0.5,0,1-0.2,1.4-0.6L32,34.4L60.5,63
+                c0.4,0.4,0.9,0.6,1.4,0.6s1-0.2,1.4-0.6c0.8-0.8,0.8-2.1,0-2.8L35.1,31.8L63.4,3.4c0.8-0.8,0.8-2.1,0-2.8c-0.8-0.8-2.1-0.8-2.8,0
+                L32,29.1L3.4,0.6c-0.8-0.8-2.1-0.8-2.8,0c-0.8,0.8-0.8,2.1,0,2.8L28.9,31.8z"></path>
+      </svg>
+    </button>
+
+  </div>
+  <main class="main">
+    <section class="hero">
+      <div class="hero__container container">
+        <div class="hero__content">
+          <img src="https://test-imperia-sochi.ru/images/Tulpanovka/logo-w.webp" alt="Логотип Тюльпановка." width="250"
+            height="116">
+          <h1 class="hero__title">
+            Таунхаусы бизнес-класса в Сочи <br>
+            <span class="hero__sup-title">Тюльпановка</span>
+          </h1>
+          <p class="hero__desc">
+            Уединение и спокойствие в окружении моря и гор
+          </p>
+          <div class="hero__phone-wraper">
+            <p class="hero__phone-desc">
+              Бесплатный звонок
+            </p>
+            <a href="tel:+78622956469" class="hero__phone">8 862 295-64-69</a>
+          </div>
+        </div>
+        <div class="hero__info">
+          <h2 class="hero__info-title">
+            Получить актуальную информацию
+          </h2>
+          <div class="hero__info-btns">
+            <button class="hero__btn-white">
+              Расчет доходности
+              <img src="https://test-imperia-sochi.ru/images/4/padlock_2.png">
+            </button>
+            <button class="hero__btn-green-dark">
+              Цены и наличие таунхаусов
+            </button>
+            <button class="hero__btn-green-light">
+              Акции и скидки
+              <img src="https://test-imperia-sochi.ru/images/4/pdf-file.png">
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="townhouse">
+      <div class="townhouse__container container">
+        <h2 class="townhouse__title">
+          Таунхаусы Тюльпановка
+        </h2>
+        <p class="townhouse__desc">
+          Идеальное место для тех, кто ищет уединение и гармонию с природой. Здесь вы сможете отдохнуть от городской
+          суеты, наслаждаясь свежим морским воздухом и звуками прибоя. Вас окружат солнечные дни, величественные горы и
+          разнообразие зелени — всё, что нужно для полного расслабления.
+        </p>
+        <p class="townhouse__desc">
+          Тюльпановка предлагает уникальные таунхаусы всего в 100 метрах от чистейшего моря, где с одной стороны вас
+          обнимают горы, а с другой — бескрайний морской горизонт. Утром свежий воздух спускается с горных лугов, а к
+          полудню побережье согревается солнечными лучами, создавая идеальные условия для отдыха.
+        </p>
+        <p class="townhouse__desc">
+          — уникальной особенностью, которая подарит вам невероятные виды и настоящий курортный комфорт.
+        </p>
+        <ul class="townhouse__list">
+          <li class="townhouse__item">
+            <a href="#" class="townhouse__link">
+              <img src="#" alt="#">
+              <h3 class="townhouse__title-list">
+                Фотографии
+              </h3>
+            </a>
+          </li>
+          <li class="townhouse__item">
+            <a href="#" class="townhouse__link">
+              <img src="#" alt="#">
+              <h3 class="townhouse__title-list">
+                Планировки
+              </h3>
+            </a>
+          </li>
+          <li class="townhouse__item">
+            <a href="#" class="townhouse__link">
+              <img src="#" alt="#">
+              <h3 class="townhouse__title-list">
+                Онлайн-показ
+              </h3>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <!-- <main class="main">
+    <section class="promo">
+      <div class="promo__container container">
+        <h1 class="promo__title">
+          Функциональное питание для котов
+        </h1>
+        <p class="promo__desc">
+          Занялся собой? Займись котом!
+        </p>
+        <picture>
+          <source type="image/webp" media="(min-width: 1440px)"
+            srcset="img/index-cat-desktop.webp 1x, img/index-cat-desktop@2x.webp 2x" width="552" height="499">
+          <source type="image/webp" media="(min-width: 768px)"
+            srcset="img/index-cat-tablet.webp 1x, img/index-cat-tablet@2x.webp 2x" width="709" height="609">
+          <source type="image/webp" srcset="img/index-cat-mobile.webp 1x, img/index-cat-mobile@2x.webp 2x" width="280"
+            height="270">
+
+
+          <source media="(min-width: 1440px)" srcset="img/index-cat-desktop.png 1x, img/index-cat-desktop@2x.png 2x"
+            width="552" height="499">
+          <source media="(min-width: 768px)" srcset="img/index-cat-tablet.png 1x, img/index-cat-tablet@2x.png 2x"
+            width="709" height="609">
+          <img src="img/index-cat-mobile.png" srcset="img/index-cat-mobile@2x.png 2x" width="280" height="270"
+            alt="Еда для котов.">
+        </picture>
+        <a href="form.html" class="promo__link btn btn--small">
+          подобрать программу
+        </a>
+      </div>
+    </section>
+    <section class="program">
+      <h2 class="visually-hidden">
+        Программы.
+      </h2>
+      <div class="program__container container">
+        <div class="program-card program-card--slim program__item">
+          <h3 class="program-card__title">
+            похудение
+          </h3>
+          <p class="program-card__desc">
+            Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim
+            поможет вашему питомцу сбросить лишний вес.
+          </p>
+          <a href="catalog.html" class="program-card__link">
+            каталог slim
+          </a>
+        </div>
+        <div class="program-card program-card--pro program__item">
+          <h3 class="program-card__title">
+            Набор массы
+          </h3>
+          <p class="program-card__desc">
+            Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить
+            необходимые мышцы!
+          </p>
+          <a href="catalog.html" class="program-card__link">
+            каталог pro
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="instruction">
+      <div class="instruction__container container">
+        <h2 class="instruction__title">
+          Как это работает
+        </h2>
+        <ul class="instruction__list">
+          <li class="instruction__item instruction__item--icon-leaf">
+            <p>
+              Функциональное питание содержит только полезные питательные вещества.
+            </p>
+          </li>
+          <li class="instruction__item instruction__item--icon-water">
+            <p>
+              Выпускается в виде порошка, который нужно лишь залить кипятком и готово.
+            </p>
+          </li>
+          <li class="instruction__item instruction__item--icon-eat">
+            <p>
+              Замените один-два приема обычной еды на наше функциональное питание.
+            </p>
+          </li>
+          <li class="instruction__item instruction__item--icon-clock">
+            <p>
+              Уже через месяц наслаждайтесь изменениями к лучшему вашего&nbsp;питомца!
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="example">
+      <div class="example__container container">
+        <div class="example__wrapper">
+          <h2 class="example__title">
+            Живой пример
+          </h2>
+          <p class="example__desc">
+            Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат
+            без&nbsp;изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.
+          </p>
+          <div class="example__info-wrapper">
+            <div class="example__info">
+              <div class="example__info-item">
+                <span>
+                  5 КГ
+                </span>
+                <p>
+                  снижение веса
+                </p>
+              </div>
+              <div class="example__info-item">
+                <span>
+                  60 ДНЕЙ
+                </span>
+                <p>
+                  затрачено времени
+                </p>
+              </div>
+            </div>
+            <p class="example__info-price">
+              <span>Затраты на питание:</span> 15&nbsp;000&nbsp;РУБ.
+            </p>
+          </div>
+        </div>
+        <div class="slider">
+          <div class="slider__img slider__img--fat">
+            <picture>
+              <source type="image/webp" media="(min-width: 768px)"
+                srcset="img/cat-tablet-fat@1x.webp 1x, img/cat-tablet-fat@2x.webp 2x" width="560" height="512">
+              <source type="image/webp" srcset="img/cat-mobile-fat@1x.webp 1x, img/cat-mobile-fat@2x.webp 2x"
+                width="280" height="256">
+
+              <source media="(min-width: 768px)" srcset="img/cat-tablet-fat@1x.png 1x, img/cat-tablet-fat@2x.png 2x"
+                width="560" height="512">
+              <img src="img/cat-mobile-fat@1x.png" srcset="img/cat-mobile-fat@2x.png 2x" width="280" height="256"
+                alt="Толстый кот.">
+            </picture>
+          </div>
+          <div class="slider__img slider__img--thin">
+            <picture>
+              <source type="image/webp" media="(min-width: 768px)"
+                srcset="img/cat-tablet-thin@1x.webp 1x, img/cat-tablet-thin@2x.webp 2x" width="560" height="512">
+              <source type="image/webp" srcset="img/cat-mobile-thin@1x.webp 1x, img/cat-mobile-thin@2x.webp 2x"
+                width="280" height="256">
+
+              <source media="(min-width: 768px)" srcset="img/cat-tablet-thin@1x.png 1x, img/cat-tablet-thin@2x.png 2x"
+                width="560" height="512">
+              <img src="img/cat-mobile-thin@1x.png" srcset="img/cat-mobile-thin@2x.png 2x" width="280" height="256"
+                alt="Худой кот.">
+            </picture>
+          </div>
+          <button class="slider__btn" type="button">
+            <svg width="24" height="18" viewBox="0 0 24 18" xmlns="http://www.w3.org/2000/svg" fill="#666666">
+              <use xlink:href="img/sprite.svg#slider-arrow"></use>
+            </svg>
+            <span class="visually-hidden">
+              Переключатель слайдера.
+            </span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main> -->
+  <footer class="footer">
+    <div class="footer__container footer__container--index container">
+      <div class="footer__wrapper">
+        <p class="footer__desc">
+          приглашаем к&nbsp;сотрудничеству дилеров!
+        </p>
+        <p class="footer__contacts">
+          ул. Большая Конюшенная, д. 19/8 <span>Санкт-Петербург</span>
+        </p>
+      </div>
+    </div>
+    <div class="map">
+      <div class="map__wrapper">
+        <picture>
+          <source type="image/webp" media="(min-width: 768px)"
+            srcset="img/map-pin-tablet.webp 1x, img/map-pin-tablet@2x.webp 2x" width="113" height="106">
+          <source type="image/webp" srcset="img/map-pin-mobile.webp 1x, img/map-pin-mobile@2x.webp 2x" width="57"
+            height="53">
+
+          <source media="(min-width: 768px)" srcset="img/map-pin-tablet.png 1x, img/map-pin-tablet@2x.png 2x"
+            width="113" height="106">
+          <img class="map__marker" src="img/map-pin-mobile.png" srcset="img/map-pin-mobile@2x.png 2x" width="57"
+            height="53" alt="Метка на карте.">
+        </picture>
+      </div>
+      <picture>
+        <source type="image/webp" media="(min-width: 1440px)"
+          srcset="img/map-desktop.webp 1x, img/map-desktop@2x.webp 2x" width="1440" height="400">
+        <source type="image/webp" media="(min-width: 768px)" srcset="img/map-tablet.webp 1x, img/map-tablet@2x.webp 2x"
+          width="768" height="400">
+        <source type="image/webp" srcset="img/map-mobile.webp 1x, img/map-mobile@2x.webp 2x" width="320" height="362">
+
+        <source media="(min-width: 1440px)" srcset="img/map-desktop.png 1x, img/map-desktop@2x.png 2x" width="1440"
+          height="400">
+        <source media="(min-width: 768px)" srcset="img/map-tablet.png 1x, img/map-tablet@2x.png 2x" width="768"
+          height="400">
+        <img src="img/map-mobile.png" srcset="img/map-mobile@2x.png 2x" width="320" height="362"
+          alt="ул. Большая Конюшенная, д. 19/8 Санкт-Петербург.">
+      </picture>
+      <iframe class="map__iframe"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036257197993!2d30.32047247700541!3d59.938719162093875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1693316270009!5m2!1sru!2sru"
+        width="320" height="362" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="footer__navigation container">
+      <a href="#" class="footer__logo logo" aria-label="Cat-energy.">
+        <svg width="101" height="18" viewBox="0 0 101 18" xmlns="http://www.w3.org/2000/svg">
+          <use xlink:href="img/sprite.svg#logo-text"></use>
+        </svg>
+
+      </a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a href="#" class="social-list__link">
+            <svg width="28" height="22" viewBox="0 0 28 22" fill="#666666" xmlns="http://www.w3.org/2000/svg">
+              <use xlink:href="img/sprite.svg#vkontakte"></use>
+            </svg>
+            <span class="visually-hidden">
+              VK.
+            </span>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="#" class="social-list__link">
+            <svg width="28" height="22" viewBox="0 0 28 22" fill="#666666" xmlns="http://www.w3.org/2000/svg">
+              <use xlink:href="img/sprite.svg#youtube"></use>
+            </svg>
+            <span class="visually-hidden">
+              YouTube.
+            </span>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="#" class="social-list__link">
+            <svg width="28" height="22" viewBox="0 0 28 22" fill="#666666" xmlns="http://www.w3.org/2000/svg">
+              <use xlink:href="img/sprite.svg#telegram"></use>
+            </svg>
+            <span class="visually-hidden">
+              Telegram.
+            </span>
+          </a>
+        </li>
+      </ul>
+      <a href="https://htmlacademy.ru/intensive/adaptive" class="footer__link">
+        <span>
+          HTML Academy
+        </span>
+        <svg width="27" height="34" viewBox="0 0 27 34" fill="#666666" xmlns="http://www.w3.org/2000/svg">
+          <use xlink:href="img/sprite.svg#footer-logo-academy"></use>
+        </svg>
+      </a>
+    </div>
+  </footer>
+  <script src="js/header-script.js"></script>
+</body>
+
+</html>
