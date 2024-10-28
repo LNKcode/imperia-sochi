@@ -495,3 +495,23 @@ a {
 .menu__contacts {
   margin-top: 15px;
 }
+
+/* временные стили - удалить! */
+
+.townhouse {
+  background-color: #177245;
+  color: #177245;
+  z-index: 11111;
+}
+
+.townhouse__list {
+  display: none;
+}
+
+.footer {
+  background-color: #177245;
+}
+
+.social-list {
+  list-style: none;
+}
